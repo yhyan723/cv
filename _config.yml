@@ -1,0 +1,166 @@
+# Site
+repository: yhyan723/cv
+
+favicon: images/fish.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Hangyan Yu
+title: PhD Candidate in Neurolinguistics
+email: yhyan@zju.edu.cn
+# website: www.fenghz.xyz
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: facespics
+github_username:  yhyan723
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: feng-haozhe-386a96179
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+orcid_username: 0000-0003-2219-2587
+
+# Additional icon links
+additional_links:
+# - title: ZhiHu
+#   icon: fab fa-zhihu
+#   url: https://www.zhihu.com/people/feng-hao-zhe-66
+# - title: Google Scholar
+#   icon: fab fa-goodreads
+#   url: https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN
+- title: Bilibili
+  icon: fab fa-youtube
+  url: 
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/me.JPG
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Hangyan Yu (余杭燕) and I'm now studying for a PhD in Neurolinguistics at State Key Lab of CAD&CG, Zhejiang University. I received my BS degree in Mathematics Statistics from Zhejiang University. My research interest includes: <mark>deep learning</mark>, <mark>representation learning</mark>, <mark>privacy preservation</mark> and <mark>federated learning</mark>.
+  
+  I am looking for work right now.
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Zhejiang University
+        caption: 2014-2018
+        sub_title: BSc Mathematics & Statistics
+        quote: >
+          Zhejiang University (ZJU; Chinese: 浙江大学) is a comprehensive national university and a member of the elite C9 League. Founded in 1897, Zhejiang University is one of China's oldest, most selective, and most prestigious institutions of higher education. 
+        description: | # this will include new lines to allow paragraphs
+          During my time at the school of Mathematics, I have learned that although **talent** really matters, diligence, in the final, will work. In this period, I got **The Second Prize Scholarship (2015)**, **Individual Scholarship for Social Activities (2016)**, **The Third Prize Scholarship (2017)**, and **The Outstanding Undergraduate Thesis(2018)**.
+      - layout: left
+        title: Zhejiang University
+        caption: 2018-now
+        sub_title: PhD Candidate in Computer Science
+        description: |
+          After surviving in mathematics and statistics, I transfer to the field of computer science and do some research in Artificial Intelligence. Now I am doing some study on **privacy-preserving techniques** in AI, including **federated learning** and **differential privacy**. I think deep learning is a  landmark achievement and should be treated carefully. AI brings convenience to our life but also causes privacy leakage. My research aims to train good AI models without exposing personal information.
+          
+          In this period, I have got **Academic Scholarship (￥10k, 2018)**, **Award of Honor of Graduate (2019, 2020, 2021)**, **Merit Graduate Student (2021)**, **Chen-Tian-Zhou Scholarship (￥10k, 2021)** and **China National Scholarship (￥30k, top 2%, 2021)**.
+        
+  - title: Projects & Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Semi-supervised Disentangling VAE
+        caption: 2020.1 - 2020.9
+        description: | # this will include new lines to allow paragraphs
+            **Feng HZ, Kong K, et al. SHOT-VAE: Semi-supervised Deep Generative Models With Label-aware ELBO Approximations (Accepted at AAAI 2021, CCF-A).** [[PDF]](https://arxiv.org/pdf/2011.10684.pdf) [[Code]](https://github.com/FengHZ/AAAI2021-260)
+
+            Semi-supervised VAEs can reduce the label cost by training classifiers with multiple unlabeled data and a small fraction of labeled data. However, it encounters the challenge that **good ELBO values do not always imply good results**. We propose SHOT-VAE to address this problem. The SHOT-VAE achieves good performance with 25.30% error on CIFAR-100 and 6.11% on CIFAR-10.
+
+            ```
+            @article{feng21, 
+                    title={SHOT-VAE: Semi-supervised Deep Generative Models With Label-aware ELBO Approximations}, 
+                    volume={35}, number={8}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+                    author={Feng, Hao-Zhe and Kong, Kezhi and Chen, Minghao and Zhang, Tianye and Zhu, Minfeng and Chen, Wei}, 
+                    year={2021}, month={May}, pages={7413-7421}}
+            ``` 
+      - layout: left
+        title: Representation Learning for Basic Visualization Charts
+        caption: 2020.1 - 2021.5
+        description: | # this will include new lines to allow paragraphs
+            **Zhang T\*, Feng HZ\*, et al. ChartNavigator: An Interactive Pattern Identification and Annotation Framework for Charts (\*First Co-Author, Accepted at IEEE TKDE, CCF-A).** [[PDF]](https://ieeexplore.ieee.org/document/9472937/) [[Email Me For Code]]()
+
+            Identifying important patterns in charts **require a large number of labeled data instances**. We propose ChartNavigator, an interactive pattern identification and annotation framework for unlabeled visualization charts. ChartNavigator design a VAE-based deep factor model to explore the latent space of charts and implement a visual interface to **support efficient pattern identification and annotation**.
+            ```
+            @article{ChartNavigator,
+                    author={Zhang, Tianye and Feng, Haozhe and Chen, Wei and Chen, Zexian and Zheng, Wenting and Luo, Xiao-Nan and Huang, Wenqi and Tung, Anthony K. H.}, journal={IEEE Transactions on Knowledge and Data Engineering}, 
+                    title={ChartNavigator: An Interactive Pattern Identification and Annotation Framework for Charts}, 
+                    year={2021}, pages={1-1}, doi={10.1109/TKDE.2021.3094236}}
+            ```
+      - layout: left
+        title: Unsupervised Multi-source Federated Transfer Learning
+        caption: 2020.5 - 2021.5
+        description: | # this will include new lines to allow paragraphs
+            **FengHZ, You Z, et al. KD3A: Unsupervised Multi-Source Decentralized Domain Adaptation via Knowledge Distillation. (Accepted at ICML 2021, CCF-A).** [[PDF]](https://arxiv.org/pdf/2011.09757.pdf) [[Code]](https://github.com/FengHZ/KD3A)
+
+            Conventional multi-source domain adaptation methods assume **all source domains can be accessed directly**. However, this assumption neglects the **privacy-preserving policy**, where all the data and computations must be kept decentralized. To address the decentralized problem, we propose a privacy-preserving UMDA paradigm named KD3A, which performs domain adaptation through the knowledge distillation. Experiments show that KD3A achieves the **SOTA 51.1% accuracy** on DomainNet. Moreover, KD3A is **robust to the negative transfer** and brings a **100× reduction of communication cost**.    
+
+            ```
+            @inproceedings{pmlr-v139-feng21f,
+              title = {KD3A: Unsupervised Multi-Source Decentralized Domain Adaptation via Knowledge Distillation},
+              author = {Feng, Haozhe and You, Zhaoyang and Chen, Minghao and Zhang, Tianye and Zhu, Minfeng 
+                and Wu, Fei and Wu, Chao and Chen, Wei}, 
+              booktitle = {Proceedings of the 38th International Conference on Machine Learning},
+              pages = {3274--3283}, year = {2021}, editor = {Meila, Marina and Zhang, Tong},
+              volume = {139}, month = {18--24 Jul}, publisher = {PMLR}}
+            ```        
+      - layout: left
+        title: Interactive Diagnosis System for Federated Learning
+        caption: 2021.9 - now
+        description: | # this will include new lines to allow paragraphs
+            **Feng HZ\*, Zhang T\*, et al. FedCare: Towards Interactive Diagnosis of Federated Learning Systems (\*First Co-Author, Under Review).**
+
+            Federated Learning (FL) is a machine learning paradigm where multiple data owners collaboratively train a model under the coordination of a central server while keeping all data decentralized.This paradigm allows models to be trained effectively while avoiding data privacy leakage. However, federated learning is vulnerable to various kinds of failures as a result of both intentional (malicious) and none intentional (non-malicious) attacks, e.g., the data poisoning attack and the non-iid problem. In this paper, we propose FedCare, a real-time visual diagnosis approach for **identifying reasons, providing solutions and handling failures** in federated learning systems.
+            
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Alibaba DAMO Academy
+        sub_title: Research Intern
+        caption: 2020.1 - 2020.5
+        description: | # this will include new lines to allow paragraphs
+            I joined the project *Federal Learning Co-construction* and learned some basic concepts with federated learning and privacy-preserving techniques. This experience expires my research on *multi-source federated transfer learning*.
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in AI, some of my other interests and hobbies are:
+      - Violin
+      - Classical Chinese literature & poetry
+      - History
+      - Philosophy(Existentialism,Communism)
+      - Psychology
+      - Tourism & Photography
+# Footer
+footer_show_references: true
+references_title: www.fenghz.xyz
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
