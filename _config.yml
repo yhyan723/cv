@@ -40,7 +40,7 @@ additional_links:
 #   url: https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN
 - title: Bilibili
   icon: fab fa-youtube
-  url: 
+  url: https://space.bilibili.com/253262478
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -52,25 +52,24 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/me.JPG
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Hangyan Yu (余杭燕) and I'm now studying for a PhD in Neurolinguistics at State Key Lab of CAD&CG, Zhejiang University. I received my BS degree in Mathematics Statistics from Zhejiang University. My research interest includes: <mark>deep learning</mark>, <mark>representation learning</mark>, <mark>privacy preservation</mark> and <mark>federated learning</mark>.
+  Hi, my name's Hangyan Yu (余杭燕) and I'm now studying for a PhD in Neurolinguistics at school of international studies, Zhejiang University. I received my BA degree in Enlighs Teaching from Zhejiang Normal University. My research interest includes: <mark>second langauge acquisition</mark>.
   
-  I am looking for work right now.
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Zhejiang University
-        caption: 2014-2018
-        sub_title: BSc Mathematics & Statistics
+        title: Zhejiang Normal University
+        caption: 2016-2020
+        sub_title: BA English teaching
         quote: >
           Zhejiang University (ZJU; Chinese: 浙江大学) is a comprehensive national university and a member of the elite C9 League. Founded in 1897, Zhejiang University is one of China's oldest, most selective, and most prestigious institutions of higher education. 
         description: | # this will include new lines to allow paragraphs
           During my time at the school of Mathematics, I have learned that although **talent** really matters, diligence, in the final, will work. In this period, I got **The Second Prize Scholarship (2015)**, **Individual Scholarship for Social Activities (2016)**, **The Third Prize Scholarship (2017)**, and **The Outstanding Undergraduate Thesis(2018)**.
       - layout: left
         title: Zhejiang University
-        caption: 2018-now
-        sub_title: PhD Candidate in Computer Science
+        caption: 2020-now
+        sub_title: PhD Candidate in Neurolinguistics
         description: |
           After surviving in mathematics and statistics, I transfer to the field of computer science and do some research in Artificial Intelligence. Now I am doing some study on **privacy-preserving techniques** in AI, including **federated learning** and **differential privacy**. I think deep learning is a  landmark achievement and should be treated carefully. AI brings convenience to our life but also causes privacy leakage. My research aims to train good AI models without exposing personal information.
           
